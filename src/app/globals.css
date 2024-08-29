@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+:root {
+  font-size: 16px;
+}
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+ 
+::-webkit-scrollbar-track {
+    background: #888;
+    border-radius: 8px;
+    broder-left: 1px solid #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+    background: #0f172a;
+    border-radius: 5px;
+}
